@@ -128,7 +128,7 @@ const Home = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Evanto Tourism</h5>
                                 <br />
-                                <Link to="/web1"><p className="btn btn-secondary">View Project Details</p></Link>
+                                <Link to="/web2"><p className="btn btn-secondary">View Project Details</p></Link>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@ const Home = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Optima Diagonostic Center</h5>
                                 <br />
-                                <Link to="/web1"><p className="btn btn-secondary">View Project Details</p></Link>
+                                <Link to="/web3"><p className="btn btn-secondary">View Project Details</p></Link>
                             </div>
                         </div>
                     </div>

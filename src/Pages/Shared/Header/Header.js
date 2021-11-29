@@ -25,10 +25,10 @@ const Header = () => {
                         </li>
                     </ul>
                     <span className="navbar-text text-secondary">
-                        <a target="_blank" href="https://www.linkedin.com/in/samkabir/"><i class="fab fa-linkedin me-3" style={{fontSize:'25px'}}></i></a>
-                        <a target="_blank" href="https://github.com/samkabir"><i class="fab fa-github me-3" style={{fontSize:'25px'}}></i></a>
-                        <a target="_blank" href="https://www.facebook.com/fahim.kabir.5/"><i class="fab fa-facebook-square me-3" style={{fontSize:'25px'}}></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/samkabir/"><i class="fab fa-twitter-square me-3" style={{fontSize:'25px'}}></i></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/samkabir/"><i class="fab fa-linkedin me-3" style={{fontSize:'25px'}}></i></a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/samkabir"><i class="fab fa-github me-3" style={{fontSize:'25px'}}></i></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/fahim.kabir.5/"><i class="fab fa-facebook-square me-3" style={{fontSize:'25px'}}></i></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/samkabir/"><i class="fab fa-twitter-square me-3" style={{fontSize:'25px'}}></i></a>
                     </span>
                     </div>
                 </div>
