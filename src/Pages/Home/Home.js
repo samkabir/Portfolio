@@ -65,7 +65,7 @@ const Home = () => {
                         </ul>
                     </div>
                 <div>
-                    <h3>Extra-Curiculars</h3>
+                    <h3>Skill Courses</h3>
                     <b>MERN Stack Development Course,</b> Programming Hero
                 </div>
                 </div>
