@@ -21,7 +21,13 @@ const Header = () => {
                             <p className="nav-link"><NavLink style={mystyle} to="/home">Home</NavLink></p>
                         </li>
                         <li className="nav-item">
-                            <p href className="nav-link"><NavLink style={mystyle} to="/contactme">Contact</NavLink></p>
+                            <p href className="nav-link"><a style={mystyle} href="/home#aboutme">About</a></p>
+                        </li>
+                        <li className="nav-item">
+                            <p href className="nav-link"><NavLink style={mystyle} to="/blogs">Blog</NavLink></p>
+                        </li>
+                        <li className="nav-item">
+                            <p href className="nav-link"><a style={mystyle} href="/home#contactme">Contact</a></p>
                         </li>
                     </ul>
                     <span className="navbar-text text-secondary">

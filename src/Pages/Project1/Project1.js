@@ -1,16 +1,35 @@
 import React from 'react';
-import img from '../../Images/shades.png';
+import img1 from '../../Images/shades1.png';
+import img2 from '../../Images/shades2.png';
+import img3 from '../../Images/shades3.png';
 
 const Project1 = () => {
-    const main_img = {
-        width: "100%",
-        maxHeight: "800px"
-    }
+    
     return (
         <div className="container">
             <div className="row my-5">
-                <div className="col-md-6">
-                    <img src={img} style={main_img} alt="webpage 1" />
+                <div className="col-md-6 my-auto">
+                    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
+                            <img src={img1} className="d-block w-100" alt="..." />
+                            </div>
+                            <div className="carousel-item">
+                            <img src={img2}  className="d-block w-100" alt="..." />
+                            </div>
+                            <div className="carousel-item">
+                            <img src={img3}  className="d-block w-100" alt="..." />
+                            </div>
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
                 <div className="col-md-6 mt-5">
                     <h3>Shades Sunglasses Limited</h3>

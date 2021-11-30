@@ -1,5 +1,6 @@
 import { NotFound } from 'http-errors';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Blogs from './Pages/Blogs/Blogs';
 import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
 import Project1 from './Pages/Project1/Project1';
@@ -21,6 +22,10 @@ function App() {
 
                 <Route path="/home">
                   <Home></Home>
+                </Route>
+
+                <Route path="/blogs">
+                  <Blogs></Blogs>
                 </Route>
 
                 <Route path="/contactme">
