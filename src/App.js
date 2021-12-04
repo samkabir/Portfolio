@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Blogs from './Pages/Blogs/Blogs';
 import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
+import Particle from './Pages/Particle/Particle';
 import Project1 from './Pages/Project1/Project1';
 import Project2 from './Pages/Project2/Project2';
 import Project3 from './Pages/Project3/Project3';
@@ -11,10 +12,11 @@ import Header from './Pages/Shared/Header/Header';
 
 
 function App() {
+  
   return (
-    <div className="App">
-      <BrowserRouter>
-            <Header></Header>
+    <div className="App"> 
+        <BrowserRouter>
+          <Header></Header>
               <Switch>
                 <Route exact path="/">
                   <Home></Home>
@@ -26,6 +28,10 @@ function App() {
 
                 <Route path="/blogs">
                   <Blogs></Blogs>
+                </Route>
+
+                <Route path="/particle">
+                  <Particle />
                 </Route>
 
                 <Route path="/contactme">
@@ -50,7 +56,8 @@ function App() {
 
               </Switch>
               <Footer></Footer>
-          </BrowserRouter>
+        </BrowserRouter>
+      
     </div>
   );
 }

@@ -72,7 +72,7 @@ const About = () => {
                         </div>
                         <div>
                             <h3>Tools</h3>
-                            <p><span style={skill}>Netbeans</span> <span style={skill}>Eclipse</span> <span style={skill}>Anaconda</span> <span style={skill}>VisualStudioCode</span> <span style={skill}>SublimeText</span> <span style={skill}>Firebase</span> <span style={skill}>Github</span></p>
+                            <p><span style={skill}>Netbeans</span> <span style={skill}>Eclipse</span> <span style={skill}>Anaconda</span> <span style={skill}>VisualStudioCode</span> <span style={skill}>SublimeText</span> <span style={skill}>Firebase</span> <span style={skill}>Github</span> <span style={skill}>Netlify</span> <span style={skill}>Heroku</span></p>
                         </div>
                         <div>
                             <h3>Language</h3>
